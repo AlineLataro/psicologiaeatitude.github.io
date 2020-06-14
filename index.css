@@ -1,0 +1,44 @@
+body {
+    background-color: #000000;
+
+}
+
+header {
+    background: url("painel.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+a{
+    text-decoration: none;
+    color: #3a4c5d;
+   
+}
+a:hover{
+    text-decoration: none;
+     color: #daa622;
+
+}
+
+section i {
+    font-size: 4.5rem;
+}
+
+.imagem {
+     background: url("painel.jpg") no-repeat center center;
+     background-size: cover;
+     height: 100%;
+     width: 100%;
+     padding-top: 12rem;
+     padding-bottom: 12rem;
+     }
+
+.back { background-color: #000000;
+
+}
+
+footer 1 {
+    font-size: 2rem;
+}
