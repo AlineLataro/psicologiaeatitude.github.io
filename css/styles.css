@@ -21,9 +21,20 @@ summary, hgroup {
   border: 0;
 }
 
-a:active,
+
+}
+
+a:active {
+color: #daa622;
+
+}
+
+a {
+  color: #daa622;
+
+}
 a:hover {
-  outline: 0;
+  color: #daa622;
 }
 
 @-webkit-viewport { width: device-width; }
