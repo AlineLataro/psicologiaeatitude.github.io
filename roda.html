@@ -1,211 +1,286 @@
-<!doctype html>
-<html lang="pt-br">
-  <head>
-  
-   
-
-    <!-- Bootstrap CSS -->
-  
+<!DOCTYPE html>
+<html>
+<head>
         <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <meta http-equiv=”content-type” content="text/html;" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="keywords" content="psicologia, psicologo, ansiedade, depressao, transtorno, bipolar, ajuda, adulto, infantil, relacionamento, casamento, namoro, familia, constelaçao familiar" />
+        <title>Psicologia e Atitude</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        
+            
+        <!-- ESTILOS PARA ESTA PÁGINA -->
+        <!-- Nesse caso, este estilo é apenas para inserir imagens -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="estilo.css">
+        
+        <!-- JAVASCRIPT E JQUERY -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    
+        <style>
+          @media(min-width: 400px){
+          .mobile{display: none;}
+          }
+          @media(max-width: 450px) {
+          .galeria{display: none;}
+          .bloco-texto{display: none;}
+          .galeria1{display: none;}
+          }
+        </style>
+    
+      </head>
 
+
+<body>
+    <!-- menu -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-brand">
+            <a href="index.html"><img src="img/logo.jpeg" style="height: 180px;"></a> 
+        </div>
+    
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu" style="color: #daa622;">
+                <i class="material-icons" style="color: white;">menu</i>
+            </button>
+        </div>
+        
+        <nav id="links-menu" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="psicoterapia.html">Psicoterapia</a></li>
+                <li><a href="roda.html">Roda de Conversa</a></li>
+                <li><a href="contato.html">Contato</a></li>
+
+            </ul>
+        </nav>
+</nav>
+
+<!-- Principal -->
+<div style="margin-top: 200px;"></div>
+
+<div class="mobile">
+  <div><img src="img/roda.jpeg"></div>
+  <div><h3><strong><i>Rodas de conversa</i></strong></h3>
+                    <p>As rodas de conversa são bate-papos descontraídos acerca de um assunto específico. 
+                      O objetivo é proporcionar um momento de troca, reflexão e informação, fornecendo certificados 
+                      aos participantes que tiverem interesse.</p></div>
+  <div><img src="img/roda2.jpeg"></div>
+  <div><h3><strong><i>Temas já abordados:</i></strong></h3><br>
+                  <h4><strong><i>O que me faz querer?</i></strong></h4>
+                  <p> O mundo de hoje exige muito de nós. Queremos muitas coisas e queremos intensamente. 
+                      Como priorizar se tudo é pra ontem? Nossa proposta para esse encontro foi uma reflexão sobre 
+                      vontades, o que move as pessoas e o que as faz querer.</p><br>
+                  <h4><strong><i>Por que escolhi a psicologia?</i></strong></h4>
+                  <p>Direcionada a estudantes de psicologia, essa roda foi elaborada para tirar dúvidas e 
+                    trocar informações sobre as áreas da psicologia e quais as funções do psicólogo.</p><br></div>
+  <div><img src="img/roda4.jpeg"></div>
+  <div><h4><strong><i>E depois que eu me formar?</i></strong></h4>
+                    <p>Esses encontros foram direcionada a estudantes de psicologia e psicólogos recém 
+                      formados, nele nós falamos sobre a prática da psicologia clínica, dividimos um pouco de
+                      nossa experiência e explicamos como é possível atuar na área.</p><br>
+                    <h4><strong><i>Sem medo da ansiedade</i></strong></h4>
+                    <p>Em um mundo onde as respostas rápidas são exigidas, somos muito cobrados e com isso 
+                      nossa preocupação aumenta, elevando nosso nível de ansiedade. Nosso objetivo foi criar 
+                      reflexões, demonstrar exercícios e mostrar quais recursos existem para lidar com esse sentimento.</p><br></div>
+  <div><img src="img/roda4.jpeg"></div>
+  <div><h4><strong><i>Você tem fome de quê?</i></strong></h4>
+                    <p>A alimentação é uma necessidade básica do ser humano, mas não é só isso. O que comemos e como 
+                        comemos diz muito sobre nós e sobre nossa história. A amamentação é o primeiro contato de acolhimento 
+                        e cuidado do bebê. Almoços em família, jantares românticos, pizza com os amigos. Alimento e afetividade 
+                        andam lado a lado. Nossa proposta nessa roda de conversa foi uma reflexão sobre a relação saudável com a 
+                        comida e com os afetos.</p><br>
+                    <h4><strong><i>o Tabu sobre Depressão e Suicídio</i></strong></h4> 
+                    <p>Há tempos ouvimos que a depressão é o mal do século. Embora as discussões sobre depressão tenham 
+                      aumentado, ainda há um tabu sobre essa patologia. Como saber se alguém está em depressão, se é uma 
+                      doença que não sangra, que não podemos ver? Qual é a diferença de estar triste ou estar em depressão? 
+                      Todo mundo que tem depressão pensa em suicídio e todo suicida tem depressão? Procuramos esclarecer 
+                      dúvidas e abrir espaço para acolhimento e conversa neste encontro sobre um tema tão importante.</p><br></div>
+  <div><img src="img/roda5.jpeg"></div>
+  <div><h4><strong><i>Breve observação da psicanálise na política atual</i></strong></h4>
+                  <p>A polarização política que vemos em nosso país não é exclusividade nossa. O mundo todo passa por 
+                    esse processo e a psicanálise tem muito a dizer sobre isso. Abrimos essa roda de conversa para que 
+                    estudantes de psicologia e psicólogos, sob um olhar psicanalítico, pudesse refletir conosco sobre 
+                    comportamentos de grupo, o extremismo, a agressividade, o fanatismo entre outros aspectos da nossa política atual.</p><br>
+                  <h4><strong><i>Conversando sobre luto </i></strong></h4>
+                  <p>Chamamos de luto um processo que ocorre após uma perda. Esse processo envolve muito mais do que tristeza e 
+                    mais complexo do que parece. Convidamos os estudantes de psicologia para participar desse encontro que teve 
+                    como objetivo trocar informações e esclarecer dúvidas sobre as fases do luto, o que é o luto patológico e como 
+                    lidar com as perdas. </p><br></div>
+  <div><img src="img/roda1.jpeg"></div>
+  <div><h4><strong><i>Relacionamentos tóxicos </i></strong></h4>
+                  <p>Uma relação tóxica parece óbvia para todos, menos para quem a vive. Ainda que a pessoa consiga perceber, 
+                    se desvencilhar de um relacionamento assim pode não ser tarefa fácil. Para esclarecer sobre o assunto, 
+                    discutimos pontos como: relação tóxica x relação saudável; a relação como vício: prazer, dependência e 
+                    perda da identidade; relações tóxicas amorosas, entre pais e filhos ou entre amigos; quais são as principais 
+                    características e possíveis exemplos.</p><br>
+                  <h4><strong><i>Agressividade e Passividade:</i></strong></h4>
+                  <p>Direcionada a estudantes de psicologia, essa roda de conversa teve como proposta a reflexão do que é 
+                    agressividade e o que é violência, quando a agressividade é útil, o que pode ser considerado passividade, 
+                    além de apresentarmos sugestões de leitura e vídeos sobre o tema.</p><br>
+                  <h4><strong><i>A construção do eu:</i></strong></h4>
+                  <p>Como acontece a construção do eu? Como nos desenvolvemos e construímos nossa autoestima? Junto com os 
+                    estudantes de psicologia, conversamos sobre narcisismo, qual a função do olhar do outro, como se conhecer 
+                    e se reconhecer. </p><br></div>
   
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</div>
 
-    <link rel="stylesheet" type="text/css" href="estilo.css">
-       <link rel="stylesheet" href="css/styles.css">
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <link rel="stylesheet" href="css/ie.css">
-    <![endif]-->
-    <script src="js/responsive-nav.js"></script>
+<div class="container" id="container-roda">
+  <div class="row">
+    <div id="galeria" class="col-md-3"><table class="galeria">
+        <tr>
+          <td>
+            <img src="img/roda.jpeg" width="100%;" style="padding-bottom: 30px; padding-top: 10px;">
+          </td>
+        </tr>
+         <tr>
+          <td style="padding-bottom: 165px; padding-top: 150px;">
+            
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="img/roda2.png" width="100%;" style="padding-bottom: 30px; padding-top: 50px;">
+          </td>
+        </tr>
+         <tr>
+          <td style="padding-bottom: 120px; padding-top: 180px;">
+           
+          </td>
+        </tr>
+         <tr>
+          <td>
+            <img src="img/roda4.jpeg" width="100%;" style="padding-bottom: 15px; padding-top: 80px;">
+          </td>
+        </tr>
+         <tr>
+          <td style="padding-bottom: 180px; padding-top: 180px;">
+          
+          </td>
+        </tr>
+         <tr>
+          <td>
+        <p style="padding-top: 10px;"></p>
+          </td>
+        </tr>
+       </table> 
+    </div>
+    <div class="col-md-6 col-sm-12 col-xs-12"> <div class="galeria"><h3><strong><i>Rodas de conversa</i></strong></h3>
+        <p>As rodas de conversa são bate-papos descontraídos acerca de um assunto específico. 
+          O objetivo é proporcionar um momento de troca, reflexão e informação, fornecendo certificados 
+          aos participantes que tiverem interesse.</p><br>
+        <h3><strong><i>Temas já abordados:</i></strong></h3><br>
+        <h4><strong><i>O que me faz querer?</i></strong></h4>
+        <p> O mundo de hoje exige muito de nós. Queremos muitas coisas e queremos intensamente. 
+        Como priorizar se tudo é pra ontem? Nossa proposta para esse encontro foi uma reflexão sobre 
+        vontades, o que move as pessoas e o que as faz querer.</p><br>
+        <h4><strong><i>Por que escolhi a psicologia?</i></strong></h4>
+        <p>Direcionada a estudantes de psicologia, essa roda foi elaborada para tirar dúvidas e 
+        trocar informações sobre as áreas da psicologia e quais as funções do psicólogo.</p><br>
+        <h4><strong><i>E depois que eu me formar?</i></strong></h4>
+        <p>Esses encontros foram direcionada a estudantes de psicologia e psicólogos recém 
+          formados, nele nós falamos sobre a prática da psicologia clínica, dividimos um pouco de
+          nossa experiência e explicamos como é possível atuar na área.</p><br>
+        <h4><strong><i>Sem medo da ansiedade</i></strong></h4>
+        <p>Em um mundo onde as respostas rápidas são exigidas, somos muito cobrados e com isso 
+          nossa preocupação aumenta, elevando nosso nível de ansiedade. Nosso objetivo foi criar 
+          reflexões, demonstrar exercícios e mostrar quais recursos existem para lidar com esse sentimento.</p><br>
+        <h4><strong><i>Você tem fome de quê?</i></strong></h4>
+        <p>A alimentação é uma necessidade básica do ser humano, mas não é só isso. O que comemos e como 
+          comemos diz muito sobre nós e sobre nossa história. A amamentação é o primeiro contato de acolhimento 
+          e cuidado do bebê. Almoços em família, jantares românticos, pizza com os amigos. Alimento e afetividade 
+          andam lado a lado. Nossa proposta nessa roda de conversa foi uma reflexão sobre a relação saudável com a 
+          comida e com os afetos.</p><br>
+        <h4><strong><i>o Tabu sobre Depressão e Suicídio</i></strong></h4> 
+        <p>Há tempos ouvimos que a depressão é o mal do século. Embora as discussões sobre depressão tenham 
+          aumentado, ainda há um tabu sobre essa patologia. Como saber se alguém está em depressão, se é uma 
+          doença que não sangra, que não podemos ver? Qual é a diferença de estar triste ou estar em depressão? 
+          Todo mundo que tem depressão pensa em suicídio e todo suicida tem depressão? Procuramos esclarecer 
+          dúvidas e abrir espaço para acolhimento e conversa neste encontro sobre um tema tão importante.</p><br>
+        <h4><strong><i>Breve observação da psicanálise na política atual</i></strong></h4>
+        <p>A polarização política que vemos em nosso país não é exclusividade nossa. O mundo todo passa por 
+          esse processo e a psicanálise tem muito a dizer sobre isso. Abrimos essa roda de conversa para que 
+          estudantes de psicologia e psicólogos, sob um olhar psicanalítico, pudesse refletir conosco sobre 
+          comportamentos de grupo, o extremismo, a agressividade, o fanatismo entre outros aspectos da nossa política atual.</p><br>
+        <h4><strong><i>Conversando sobre luto </i></strong></h4>
+        <p>Chamamos de luto um processo que ocorre após uma perda. Esse processo envolve muito mais do que tristeza e 
+          mais complexo do que parece. Convidamos os estudantes de psicologia para participar desse encontro que teve 
+          como objetivo trocar informações e esclarecer dúvidas sobre as fases do luto, o que é o luto patológico e como 
+          lidar com as perdas. </p><br>
+        <h4><strong><i>Relacionamentos tóxicos </i></strong></h4>
+        <p>Uma relação tóxica parece óbvia para todos, menos para quem a vive. Ainda que a pessoa consiga perceber, 
+          se desvencilhar de um relacionamento assim pode não ser tarefa fácil. Para esclarecer sobre o assunto, 
+          discutimos pontos como: relação tóxica x relação saudável; a relação como vício: prazer, dependência e 
+          perda da identidade; relações tóxicas amorosas, entre pais e filhos ou entre amigos; quais são as principais 
+          características e possíveis exemplos.</p><br>
+        <h4><strong><i>Agressividade e Passividade:</i></strong></h4>
+        <p>Direcionada a estudantes de psicologia, essa roda de conversa teve como proposta a reflexão do que é 
+          agressividade e o que é violência, quando a agressividade é útil, o que pode ser considerado passividade, 
+          além de apresentarmos sugestões de leitura e vídeos sobre o tema.</p><br>
+        <h4><strong><i>A construção do eu:</i></strong></h4>
+        <p>Como acontece a construção do eu? Como nos desenvolvemos e construímos nossa autoestima? Junto com os 
+          estudantes de psicologia, conversamos sobre narcisismo, qual a função do olhar do outro, como se conhecer 
+          e se reconhecer. </p><br>
 
-    <title>Psicologia e Atitude</title>
-  </head>
-  <body>
- 
+        </div>
+    </div>
 
-      <!-- cabeçalho -->
-
-
-    <header>
-        <a href="#home" class="logo" data-scroll style="padding-left: 50px;"><img src="img/logo.jpeg" height="180px;"></a>
-      <nav class="nav-collapse" style="padding-top: 80px;">
-        <ul>
-          <li class="menu-item active"><a href="index.html" data-scroll>Home</a></li>
-          <li class="menu-item"><a href="sobre.html" data-scroll>Sobre</a></li>
-          <li class="menu-item"><a href="psicoterapia.html" data-scroll>Psicoterapia</a></li>
-          <li class="menu-item"><a href="roda.html" data-scroll>Roda de conversa</a></li>
-          <li class="menu-item"><a href="contato.html" data-scroll>Contato</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <script src="js/fastclick.js"></script>
-    <script src="js/scroll.js"></script>
-    <script src="js/fixed-responsive-nav.js"></script>
-
-  <!-- Div painel -->
-
-        <div style="padding-top: 150px;"></div>
-
-
-
- <div class="row">
-  <div class="col-sm-3" style="padding-top: 100px; padding-left: 70px;"> <table>
-<script type="text/javascript">
-<!--
-function abrirJanela(pagina, largura, altura) {
-// Definindo centro da tela
-var esquerda = (screen.width - largura)/2;
-var topo = (screen.height - altura)/2;
-// Abre a nova janela
-minhaJanela = window.open(pagina,'','height=' + altura + ', width=' + largura + ', top=' + topo + ', left=' + esquerda);
-}
--->
-</script>
-
-  <tr>
-    <td><a href="#" onclick="javascript:abrirJanela('img/roda2.jpeg', 1000, 700);"><img src="img/roda2.png" width="100%" class="rounded"></a>
-    </td>
-  </tr>
-   <tr>
-    <td style="padding-top: 70px;"><a href="#" onclick="javascript:abrirJanela('img/roda1.jpeg', 1000, 700);"><img src="img/roda1.png" width="100%" class="rounded"></a>
-    </td>
-  </tr>
-   <tr>
-    <td style="padding-top: 70px;"><a href="#" onclick="javascript:abrirJanela('img/roda3.jpeg', 1000, 700);"><img src="img/roda3.png" width="100%" class="rounded"></a>
-    </td>
-  </tr>
-   <tr>
-    <td style="padding-top: 70px;"><a href="#" onclick="javascript:abrirJanela('img/roda4.jpeg', 1000, 700);"><img src="img/roda4.png" width="100%" class="rounded"></a>
-    </td>
-  </tr>
-  <tr>
-    <td style="padding-top: 70px;"><a href="#" onclick="javascript:abrirJanela('img/roda5.jpeg', 1000, 700);"><img src="img/roda5.png" width="100%" class="rounded"></a>
-    </td>
-  </tr>
-  <tr>
-    <td style="padding-top: 70px;"><a href="#" onclick="javascript:abrirJanela('img/roda6.jpeg', 1000, 700);"><img src="img/roda6.png" width="100%" class="rounded"></a>
-    </td>
-  </tr>
-
-
-</table> </div>
-
-      <!--div central -->
-  <div class="col-sm-6" style="padding-top: 100px; padding-left: 70px;"> <h3> Rodas de conversa </h3>
-  <p>Rodas de conversa
-As rodas de conversa são bate-papos descontraídos acerca de um assunto específico. O objetivo é proporcionar um momento de troca, reflexão e informação, fornecendo certificados aos participantes que tiverem interesse.</p><br>
-
-<p><h4>Temas já abordados:</h4></p><br>
-
-<p><h5>O que me faz querer:</h5></p>
-<p>O mundo de hoje exige muito de nós. Queremos muitas coisas e queremos intensamente. Como priorizar se tudo é pra ontem? Nossa proposta para esse encontro foi uma reflexão sobre vontades, o que move as pessoas e o que as faz querer.</p><br>
-
-<p><h5>Por que escolhi a psicologia:</h5></p>
-<p>Direcionada à estudantes de psicologia, essa roda foi elaborada para tirar duvidas e trocar informações sobre as áreas da psicologia e quais as funções do psicólogo.
-E depois que eu me formar?
-Esses encontros foram direcionada à estudantes de psicologia e psicólogos recém formados, nele nós falamos sobre a prática da psicologia clínica, dividimos um pouco de nossa experiência e explicamos como é possível atuar na área.</p><br>
-
-<p><h5>Sem medo da ansiedade</h5></p>
-<p>Em um mundo onde as respostas rápidas são exigidas, somos muito cobrados e com isso nossa preocupação aumenta, elevando nosso nível de ansiedade. Nosso objetivo foi criar reflexões, demonstrar exercícios e mostrar quais recursos existem para lidar com esse sentimento.</p>
-
-<p><h5>Você tem fome de quê?</h5></p>
-<p>A alimentação é uma necessidade básica do ser humano, mas não é só isso. O que comemos e como comemos diz muito sobre nós e sobre nossa história. A amamentação é o primeiro contato de acolhimento e cuidado do bebê. Almoços em família, jantares românticos, pizza com os amigos. Alimento e afetividade andam lado a lado. Nossa proposta nessa roda de conversa foi uma reflexão sobre a relação saudável com a comida e com os afetos.<p><br>
-
-<p><h5>Quebrando o Tabu sobre Depressão e Suicídio</h5></p>
-<p>Há tempos ouvimos que a depressão é o mal do século. Embora as discussões sobre depressão tenham aumentado, ainda há um tabu sobre essa patologia. Como saber se alguém está em depressão, se é uma doença que não sangra, que não podemos ver? Qual é a diferença de estar triste ou estar em depressão? Todo mundo que tem depressão pensa em suicídio e todo suicida tem depressão? Procuramos esclarecer duvidas e abrir espaço para acolhimento e conversa neste encontro sobre um tema tão importante.</p><br>
-
-<p><h5>Breve observação da psicanálise na política atual</h5></p>
-<p>A polarização política que vemos em nosso país não é exclusividade nossa. O mundo todo passa por esse processo e a psicanálise tem muito a dizer sobre isso. Abrimos essa roda de conversa para que estudantes de psicologia e psicólogos, sob um olhar psicanalítico, pudesse refletir conosco sobre comportamentos de grupo, o extremismo, a agressividade, o fanatismo entre outros aspectos da nossa política atual.</p><br>
-
-<p><h5>Conversando sobre luto </h5></p>
-<p>Chamamos de luto um processo que ocorre após uma perda. Esse processo envolve muito mais do que tristeza e mais complexo do que parece. Convidamos os estudantes de psicologia para participar desse encontro que teve como objetivo trocar informações e esclarecer dúvidas sobre as fases do luto, o que é o luto patológico e como lidar com as perdas. </p><br>
-
-<p><h5>Relacionamentos tóxicos </h5></p>
-<p>Uma relação tóxica parece obvia para todos, menos para quem a vive. Ainda que a pessoa consiga perceber, se desvencilhar de um relacionamento assim pode não ser tarefa fácil. Para esclarecer sobre o assunto, discutimos pontos como: relação tóxica X relação saudável; a relação como vício: prazer, dependência e perda da identidade; relações tóxicas amorosas, entre pais e filhos ou entre amigos; quais são as principais características e possíveis exemplos.</p><br>
-
-<p><h5>Agressividade e Passividade:</h5></p>
-<p>Direcionada à estudantes de psicologia, essa roda de conversa teve como proposta a reflexão do que agressividade e o que é violência, quando a agressividade é útil, o que pode ser considerado passividade, além de apresentarmos sugestões de leitura e vídeos sobre o tema.</p><br>
-
-<p><h5>A construção do eu:</h5></p>
-<p>Como acontece a construção do eu? Como nos desenvolvemos e construímos nossa autoestima? Junto com os estudantes de psicologia, conversamos sobre narcisismo, qual a função do olhar do outro, como se conhecer e se reconhecer. </p><br> </div>
-
-  <div class="col-sm-3" style="padding-top: 100px; padding-left: 70px;"> <table>
-  <script type="text/javascript">
-<!--
-function abrirJanela(pagina, largura, altura) {
-// Definindo centro da tela
-var esquerda = (screen.width - largura)/2;
-var topo = (screen.height - altura)/2;
-// Abre a nova janela
-minhaJanela = window.open(pagina,'','height=' + altura + ', width=' + largura + ', top=' + topo + ', left=' + esquerda);
-}
--->
-</script>
-
-  <tr>
-    <td><a href="#" onclick="javascript:abrirJanela('img/roda2.jpeg', 1000, 700);"><img src="img/roda2.png" width="100%" class="rounded"></a>
-    </td>
-  </tr>
-   <tr>
-    <td style="padding-top: 70px;"><a href="#" onclick="javascript:abrirJanela('img/roda1.jpeg', 1000, 700);"><img src="img/roda1.png" width="100%" class="rounded"></a>
-    </td>
-  </tr>
-   <tr>
-    <td style="padding-top: 70px;"><a href="#" onclick="javascript:abrirJanela('img/roda3.jpeg', 1000, 700);"><img src="img/roda3.png" width="100%" class="rounded"></a>
-    </td>
-  </tr>
-   <tr>
-    <td style="padding-top: 70px;"><a href="#" onclick="javascript:abrirJanela('img/roda4.jpeg', 1000, 700);"><img src="img/roda4.png" width="100%" class="rounded"></a>
-    </td>
-  </tr>
-  <tr>
-    <td style="padding-top: 70px;"><a href="#" onclick="javascript:abrirJanela('img/roda5.jpeg', 1000, 700);"><img src="img/roda5.png" width="100%" class="rounded"></a>
-    </td>
-  </tr>
-  <tr>
-    <td style="padding-top: 70px;"><a href="#" onclick="javascript:abrirJanela('img/roda6.jpeg', 1000, 700);"><img src="img/roda6.png" width="100%" class="rounded"></a>
-    </td>
-  </tr>
-
-
-</table>  </div>
-
+    <div id="galeria1"  class="col-md-3"><table class="galeria">
+        <tr>
+          <td style="padding-bottom: 100px; padding-top: 150px;">
+         
+          </td>
+        </tr>
+        
+        <tr>
+          <td>
+            <img src="img/roda6.jpeg" width="100%;" style="padding-bottom: 10px; padding-top: 50px;">
+          </td>
+        </tr>
+         <tr>
+          <td style="padding-bottom: 165px; padding-top: 180px;">
+           
+          </td>
+        </tr>
+         <tr>
+          <td>
+            <img src="img/roda5.jpeg" width="100%" style="padding-bottom: 15px; padding-top: 50px;">
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-bottom: 165px; padding-top: 180px;">
+           
+          </td>
+        </tr>
+         <tr>
+          <td>
+           <img src="img/roda1.jpeg" width="100%" style=" padding-top: 50px;">
+          </td>
+        </tr>
+       </table>
+      </div>
+  </div>
 </div>
 
 
 
-<!-- Div Roda Pé  -->
 
-<div class="row" style="background-color: #3a4c5d;">
-  <div class="col-sm-1" style="padding-left: 30px;"></div>
-
- <div class="col-sm-4" style="padding-left: 30px; padding-top: 30px; padding-bottom: 30px; color: #daa622;">
-    <div class="row">
-      <div class="col-sm-2"> <h1><i class="fab fa-whatsapp"></i></h1></div>
-      <div class="col-sm-2"><h1><a href="https://www.instagram.com/psicologia_e_atitude/"><i class="fab fa-instagram"></i></a></h1></div>
-      <div class="col-sm-2"><h1><a href="https://www.facebook.com/psicologiaeatitudeoficial/"><i class="fab fa-facebook"></i></a></h1></div>
-      <div class="col-sm-2"></div>
-      <div class="col-sm-2"></div>
-      <div class="col-sm-2"></div>
-   </div>  
- </div>
-
-    <div class="col-sm-3" style="padding-left: 30px;"></div>  
-     <div class="col-sm-2 d-none d-sm-block" style="padding-left: 30px; text-align: right; padding-top: 50px; padding-bottom: 30px; color: #daa622;"><h8><i>Psicologia e Atitude</i> </h8></div>     
-    </div>
-
-
-  </body>
- 
-  </html>
+<!-- Rodapé-->
+        <div class="row" style="background-color: #3a4c5d;">
+            <div class="container">   
+                <div class="col-md-1"><h1><a href="https://www.instagram.com/psicologia_e_atitude/"><i class="fab fa-instagram"></i></a></h1></div>
+                <div class="col-md-1"><h1><a href="https://www.facebook.com/psicologiaeatitudeoficial/"><i class="fab fa-facebook"></i></a></h1></div>
+                <div class="col-md-7"></div>
+                <div class="col-md-3"><p style="color:#daa622; padding: 30px; text-align: left;"><i>Psicologia e Atitude</i></p></div>
+            </div>
+        </div>
+</body>
+</html>
